@@ -1,0 +1,12 @@
+PODS:
+  - SessionM (1.15.5)
+
+DEPENDENCIES:
+  - SessionM (~> 1.15)
+
+SPEC CHECKSUMS:
+  SessionM: f038d92029bca1fa7407dc85b9a3da6f1713af09
+
+PODFILE CHECKSUM: 1f01abe5c1fad3f59fbb3c0dd9d5e065dddacf18
+
+COCOAPODS: 1.0.0.rc.1

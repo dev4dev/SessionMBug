@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SessionMWrapper.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () 
 
 @end
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+
+	[[SessionMWrapper sharedWrapper] setup];
+
 	return YES;
 }
 

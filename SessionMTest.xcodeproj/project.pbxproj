@@ -13,9 +13,14 @@
 		6349B4221CD75DBC00371697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349B4201CD75DBC00371697 /* Main.storyboard */; };
 		6349B4241CD75DBC00371697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349B4231CD75DBC00371697 /* Assets.xcassets */; };
 		6349B4271CD75DBC00371697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349B4251CD75DBC00371697 /* LaunchScreen.storyboard */; };
+		6349B4301CD75F2D00371697 /* SessionMWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349B42F1CD75F2D00371697 /* SessionMWrapper.m */; };
+		B008504787D2C6189AEA6D27 /* libPods-SessionMTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407FC356FF380FC45FE21623 /* libPods-SessionMTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075F9B2A03BACC49A698B62F /* Pods-SessionMTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SessionMTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SessionMTest/Pods-SessionMTest.debug.xcconfig"; sourceTree = "<group>"; };
+		22D6F5CAD822EE0E1266A4AF /* Pods-SessionMTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SessionMTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SessionMTest/Pods-SessionMTest.release.xcconfig"; sourceTree = "<group>"; };
+		407FC356FF380FC45FE21623 /* libPods-SessionMTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SessionMTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6349B4141CD75DBC00371697 /* SessionMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SessionMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6349B4181CD75DBC00371697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6349B41A1CD75DBC00371697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		6349B4231CD75DBC00371697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6349B4261CD75DBC00371697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6349B4281CD75DBC00371697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6349B42E1CD75F2D00371697 /* SessionMWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionMWrapper.h; sourceTree = "<group>"; };
+		6349B42F1CD75F2D00371697 /* SessionMWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionMWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B008504787D2C6189AEA6D27 /* libPods-SessionMTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3C077EDC08CBC58E978E5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				075F9B2A03BACC49A698B62F /* Pods-SessionMTest.debug.xcconfig */,
+				22D6F5CAD822EE0E1266A4AF /* Pods-SessionMTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6349B40B1CD75DBC00371697 = {
 			isa = PBXGroup;
 			children = (
 				6349B4161CD75DBC00371697 /* SessionMTest */,
 				6349B4151CD75DBC00371697 /* Products */,
+				1C3C077EDC08CBC58E978E5B /* Pods */,
+				C25D6AD6B4F988D2463B06E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,8 @@
 				6349B4251CD75DBC00371697 /* LaunchScreen.storyboard */,
 				6349B4281CD75DBC00371697 /* Info.plist */,
 				6349B4171CD75DBC00371697 /* Supporting Files */,
+				6349B42E1CD75F2D00371697 /* SessionMWrapper.h */,
+				6349B42F1CD75F2D00371697 /* SessionMWrapper.m */,
 			);
 			path = SessionMTest;
 			sourceTree = "<group>";
@@ -79,6 +100,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C25D6AD6B4F988D2463B06E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407FC356FF380FC45FE21623 /* libPods-SessionMTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6349B42B1CD75DBC00371697 /* Build configuration list for PBXNativeTarget "SessionMTest" */;
 			buildPhases = (
+				EF2DA90A9508506933171CA2 /* 📦 Check Pods Manifest.lock */,
 				6349B4101CD75DBC00371697 /* Sources */,
 				6349B4111CD75DBC00371697 /* Frameworks */,
 				6349B4121CD75DBC00371697 /* Resources */,
+				FE891F3047D95FCBB14FC137 /* 📦 Embed Pods Frameworks */,
+				C245120AB8BA71EEC6B62505 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +176,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C245120AB8BA71EEC6B62505 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SessionMTest/Pods-SessionMTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2DA90A9508506933171CA2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE891F3047D95FCBB14FC137 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SessionMTest/Pods-SessionMTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6349B4101CD75DBC00371697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -151,6 +231,7 @@
 			files = (
 				6349B41F1CD75DBC00371697 /* ViewController.m in Sources */,
 				6349B41C1CD75DBC00371697 /* AppDelegate.m in Sources */,
+				6349B4301CD75F2D00371697 /* SessionMWrapper.m in Sources */,
 				6349B4191CD75DBC00371697 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +344,7 @@
 		};
 		6349B42C1CD75DBC00371697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075F9B2A03BACC49A698B62F /* Pods-SessionMTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SessionMTest/Info.plist;
@@ -274,6 +356,7 @@
 		};
 		6349B42D1CD75DBC00371697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D6F5CAD822EE0E1266A4AF /* Pods-SessionMTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SessionMTest/Info.plist;
@@ -302,6 +385,7 @@
 				6349B42D1CD75DBC00371697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
