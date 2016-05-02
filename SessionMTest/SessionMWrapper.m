@@ -28,6 +28,7 @@
 - (void)setup
 {
 	[[SessionM sharedInstance] setDelegate:self];
+#warning Put APP_ID Here
 	SMStart(@"");
 }
 
