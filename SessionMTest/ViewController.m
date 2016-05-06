@@ -10,6 +10,7 @@
 
 #import "SessionMWrapper.h"
 #import <SessionM/SMPortalButton.h>
+#import "PopoverViewController.h"
 
 @interface ViewController ()
 
@@ -50,4 +51,14 @@
 
 	[[SessionMWrapper sharedWrapper] demoAction];
 }
+
+- (IBAction)onPopIt:(UIBarButtonItem *)sender
+{
+	PopoverViewController *vc = [PopoverViewController new];
+	vc.modalPresentationStyle = UIModalPresentationPopover;
+	vc.popoverPresentationController.barButtonItem = sender;
+
+	[self presentViewController:vc animated:YES completion:nil];
+}
+
 @end

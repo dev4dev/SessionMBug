@@ -14,6 +14,9 @@
 		6349B4241CD75DBC00371697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349B4231CD75DBC00371697 /* Assets.xcassets */; };
 		6349B4271CD75DBC00371697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6349B4251CD75DBC00371697 /* LaunchScreen.storyboard */; };
 		6349B4301CD75F2D00371697 /* SessionMWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349B42F1CD75F2D00371697 /* SessionMWrapper.m */; };
+		63ABF0F21CDD1E5E004CE212 /* SplitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF0F11CDD1E5E004CE212 /* SplitVC.m */; };
+		63ABF0F91CDD2060004CE212 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF0F71CDD2060004CE212 /* PopoverViewController.m */; };
+		63ABF0FA1CDD2060004CE212 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63ABF0F81CDD2060004CE212 /* PopoverViewController.xib */; };
 		B008504787D2C6189AEA6D27 /* libPods-SessionMTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407FC356FF380FC45FE21623 /* libPods-SessionMTest.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,11 @@
 		6349B4281CD75DBC00371697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6349B42E1CD75F2D00371697 /* SessionMWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionMWrapper.h; sourceTree = "<group>"; };
 		6349B42F1CD75F2D00371697 /* SessionMWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionMWrapper.m; sourceTree = "<group>"; };
+		63ABF0F01CDD1E5E004CE212 /* SplitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitVC.h; sourceTree = "<group>"; };
+		63ABF0F11CDD1E5E004CE212 /* SplitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitVC.m; sourceTree = "<group>"; };
+		63ABF0F61CDD2060004CE212 /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		63ABF0F71CDD2060004CE212 /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		63ABF0F81CDD2060004CE212 /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				6349B4171CD75DBC00371697 /* Supporting Files */,
 				6349B42E1CD75F2D00371697 /* SessionMWrapper.h */,
 				6349B42F1CD75F2D00371697 /* SessionMWrapper.m */,
+				63ABF0F01CDD1E5E004CE212 /* SplitVC.h */,
+				63ABF0F11CDD1E5E004CE212 /* SplitVC.m */,
+				63ABF0F61CDD2060004CE212 /* PopoverViewController.h */,
+				63ABF0F71CDD2060004CE212 /* PopoverViewController.m */,
+				63ABF0F81CDD2060004CE212 /* PopoverViewController.xib */,
 			);
 			path = SessionMTest;
 			sourceTree = "<group>";
@@ -168,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ABF0FA1CDD2060004CE212 /* PopoverViewController.xib in Resources */,
 				6349B4271CD75DBC00371697 /* LaunchScreen.storyboard in Resources */,
 				6349B4241CD75DBC00371697 /* Assets.xcassets in Resources */,
 				6349B4221CD75DBC00371697 /* Main.storyboard in Resources */,
@@ -229,9 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ABF0F91CDD2060004CE212 /* PopoverViewController.m in Sources */,
 				6349B41F1CD75DBC00371697 /* ViewController.m in Sources */,
 				6349B41C1CD75DBC00371697 /* AppDelegate.m in Sources */,
 				6349B4301CD75F2D00371697 /* SessionMWrapper.m in Sources */,
+				63ABF0F21CDD1E5E004CE212 /* SplitVC.m in Sources */,
 				6349B4191CD75DBC00371697 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
