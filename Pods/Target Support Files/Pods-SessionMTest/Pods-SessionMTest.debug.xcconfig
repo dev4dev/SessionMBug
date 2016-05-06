@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SessionM"
-LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/SessionM/**" $(inherited) "${PODS_ROOT}/SessionM/SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/SessionM/**" $(inherited) "${PODS_ROOT}/SessionM/SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SessionM"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"SessionM.1.15.5" -framework "AVFoundation" -framework "AdSupport" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "EventKit" -framework "EventKitUI" -framework "Foundation" -framework "ImageIO" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SessionM.1.15.6" -framework "AVFoundation" -framework "AdSupport" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "EventKit" -framework "EventKitUI" -framework "Foundation" -framework "ImageIO" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

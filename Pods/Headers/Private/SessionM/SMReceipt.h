@@ -1,1 +1,1 @@
-../../../SessionM/SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMReceipt.h
+../../../SessionM/SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMReceipt.h

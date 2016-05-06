@@ -8,37 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		B1DCF09E7FA47FA7E1C0733261DEE07E /* Pods-SessionMTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCA7DFA0BE380CB806A66216A872370 /* Pods-SessionMTest-dummy.m */; };
-		B89FEE575F7D9CC0554C406679D911D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		CB2C56AEFE1319A35E082951D3ECDD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		029A330907213A0D654A6A9D2B2BD5C8 /* libSessionM.1.15.5.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSessionM.1.15.5.a; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/libSessionM.1.15.5.a"; sourceTree = "<group>"; };
 		032D1A46B6F225C409EBB8907544E67F /* libPods-SessionMTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SessionMTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4B16673F0D93EB0B9721481529D36F /* SMMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMMessageData.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMMessageData.h"; sourceTree = "<group>"; };
-		0B91114F9D6963BB242D351155C04CB3 /* SMFeedMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMFeedMessageData.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMFeedMessageData.h"; sourceTree = "<group>"; };
-		1CE24560D3CBA172DA2AA4C749F2CAAB /* SMLoaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMLoaderController.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMLoaderController.h"; sourceTree = "<group>"; };
-		25C409800E8F88E8686A1A2172021E5A /* SMPortalBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMPortalBarButtonItem.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMPortalBarButtonItem.h"; sourceTree = "<group>"; };
-		2BF13019E901911275664D44520A4C55 /* SessionM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionM.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SessionM.h"; sourceTree = "<group>"; };
-		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0600773DC67000BA47CE217FEBE84932 /* SMLoaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMLoaderController.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMLoaderController.h"; sourceTree = "<group>"; };
+		0ACBD2441E864305DFBC389150704663 /* SMReceiptUploadViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMReceiptUploadViewController.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMReceiptUploadViewController.h"; sourceTree = "<group>"; };
+		1F64F2624261D8DBFCF2AB15AFEAE9AF /* SessionM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionM.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SessionM.h"; sourceTree = "<group>"; };
+		2C41FA20B0A6C3C78700A89BA2F33956 /* SMActivityFeedViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityFeedViewCell.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMActivityFeedViewCell.h"; sourceTree = "<group>"; };
 		3F23FFE6F1045C07F94DE5CDA294A768 /* Pods-SessionMTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SessionMTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		473D0B2C7F132CE5FCFB3681FF8C0C33 /* SMAchievementData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMAchievementData.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMAchievementData.h"; sourceTree = "<group>"; };
+		49CF47311181E491F19B697573AE54D3 /* SMMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMMessageData.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMMessageData.h"; sourceTree = "<group>"; };
+		49F06C84F754CDDB12B72E17E19671B7 /* SMActivityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityViewController.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMActivityViewController.h"; sourceTree = "<group>"; };
+		4D49A2532525C6D55DF6CE6D144B49A0 /* SMPortalBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMPortalBarButtonItem.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMPortalBarButtonItem.h"; sourceTree = "<group>"; };
 		4F5372D92A6E7A3FC1FC856541B65F84 /* Pods-SessionMTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SessionMTest-frameworks.sh"; sourceTree = "<group>"; };
-		61808D7065D1168CFBFA586C8AC6EDD2 /* SMDefaultMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMDefaultMessageView.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMDefaultMessageView.h"; sourceTree = "<group>"; };
+		52C80FE10C2DC5566123BDB7B3B85B98 /* SMActivityFeedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityFeedViewController.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMActivityFeedViewController.h"; sourceTree = "<group>"; };
+		57320ED53DA9A1882AC998CEE660DAB1 /* SMMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMMessageView.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMMessageView.h"; sourceTree = "<group>"; };
+		65F297566040885B7F9B37E7E788F2C7 /* libSessionM.1.15.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSessionM.1.15.6.a; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/libSessionM.1.15.6.a"; sourceTree = "<group>"; };
 		6C5C09BA6CC2353933ADBA2CBBF65EB7 /* Pods-SessionMTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SessionMTest.release.xcconfig"; sourceTree = "<group>"; };
-		7913119560275DD1BF8FBA399A63D789 /* SMOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMOrder.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMOrder.h"; sourceTree = "<group>"; };
-		7A445331CD7DC030F885DFDA39C3AE0F /* SMNotificationMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMNotificationMessageData.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMNotificationMessageData.h"; sourceTree = "<group>"; };
+		720BE655DBFF544758B514E607F7B216 /* SMDefaultMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMDefaultMessageView.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMDefaultMessageView.h"; sourceTree = "<group>"; };
+		8B5C90FB1FB128E02BEAB7DA77BAFA27 /* SMOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMOrder.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMOrder.h"; sourceTree = "<group>"; };
 		8CCA7DFA0BE380CB806A66216A872370 /* Pods-SessionMTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SessionMTest-dummy.m"; sourceTree = "<group>"; };
+		8DEB1DB7443A17CFCC2FFEA3B93319D2 /* SMNotificationMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMNotificationMessageData.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMNotificationMessageData.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C180CF791CA65F8F9ABCD1BF66B4837 /* Pods-SessionMTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SessionMTest.debug.xcconfig"; sourceTree = "<group>"; };
-		AF572A5F85BCFF307817E0310DE11A8A /* SMActivityFeedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityFeedViewController.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMActivityFeedViewController.h"; sourceTree = "<group>"; };
-		C400E47ADDFAF16BE0F29C37ECCD8EAC /* SMReceiptUploadViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMReceiptUploadViewController.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMReceiptUploadViewController.h"; sourceTree = "<group>"; };
-		C86049C1D5D457D41ACA428808C51D99 /* SMActivityViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityViewController.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMActivityViewController.h"; sourceTree = "<group>"; };
+		A3907E902F0E7E1F85D110EB819A585F /* SMFeedMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMFeedMessageData.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMFeedMessageData.h"; sourceTree = "<group>"; };
+		AC1FBF0EA3E8C5651D3DCF5164ABB97A /* SMReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMReceipt.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMReceipt.h"; sourceTree = "<group>"; };
+		B0A97D920A60D31FE4477641AC5C1C11 /* SMAchievementData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMAchievementData.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMAchievementData.h"; sourceTree = "<group>"; };
 		CD8094C73BAD9A8B1ECB4604937756F6 /* Pods-SessionMTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SessionMTest-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D840036D3778F7A54E5B4F6BE09BF2BA /* Pods-SessionMTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SessionMTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA7A89E50138DCCEB525BE69FF0EBE11 /* SMMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMMessageView.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMMessageView.h"; sourceTree = "<group>"; };
-		E6E8E6FAA529A47206DA909BE806549B /* SMPortalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMPortalButton.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMPortalButton.h"; sourceTree = "<group>"; };
-		EC7341041D24B6D727D1DAD89646E6AA /* SMActivityFeedViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMActivityFeedViewCell.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMActivityFeedViewCell.h"; sourceTree = "<group>"; };
-		FB7C454A86B739DFE9B8158CAC2F581F /* SMReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMReceipt.h; path = "SessionM_MMC_iOS_v1.15.5_Release/SessionM-SDK/API/SMReceipt.h"; sourceTree = "<group>"; };
+		F380FCC226E2B23E6BD29E639B69AEA4 /* SMPortalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SMPortalButton.h; path = "SessionM_MMC_iOS_v1.15.6_Release/SessionM-SDK/API/SMPortalButton.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,35 +46,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89FEE575F7D9CC0554C406679D911D2 /* Foundation.framework in Frameworks */,
+				CB2C56AEFE1319A35E082951D3ECDD42 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+		2116A76F03C31784FF9531E30DEFE2E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+				9AB9B84CCF5950AB83F02351E389EAB8 /* SessionM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1F5BF670D8527629F48F0B53971EA152 /* Frameworks */ = {
+		4A532EE2D4FE6D6E593D38F68C8C707B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				029A330907213A0D654A6A9D2B2BD5C8 /* libSessionM.1.15.5.a */,
+				65F297566040885B7F9B37E7E788F2C7 /* libSessionM.1.15.6.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2116A76F03C31784FF9531E30DEFE2E5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AF0A32BDB869CC3E9EF1613F244DCC2B /* SessionM */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		6FD2BC0A5921404081F0B3B750E2AB90 /* Products */ = {
@@ -96,26 +96,26 @@
 			);
 			sourceTree = "<group>";
 		};
-		AF0A32BDB869CC3E9EF1613F244DCC2B /* SessionM */ = {
+		9AB9B84CCF5950AB83F02351E389EAB8 /* SessionM */ = {
 			isa = PBXGroup;
 			children = (
-				2BF13019E901911275664D44520A4C55 /* SessionM.h */,
-				473D0B2C7F132CE5FCFB3681FF8C0C33 /* SMAchievementData.h */,
-				EC7341041D24B6D727D1DAD89646E6AA /* SMActivityFeedViewCell.h */,
-				AF572A5F85BCFF307817E0310DE11A8A /* SMActivityFeedViewController.h */,
-				C86049C1D5D457D41ACA428808C51D99 /* SMActivityViewController.h */,
-				61808D7065D1168CFBFA586C8AC6EDD2 /* SMDefaultMessageView.h */,
-				0B91114F9D6963BB242D351155C04CB3 /* SMFeedMessageData.h */,
-				1CE24560D3CBA172DA2AA4C749F2CAAB /* SMLoaderController.h */,
-				0B4B16673F0D93EB0B9721481529D36F /* SMMessageData.h */,
-				DA7A89E50138DCCEB525BE69FF0EBE11 /* SMMessageView.h */,
-				7A445331CD7DC030F885DFDA39C3AE0F /* SMNotificationMessageData.h */,
-				7913119560275DD1BF8FBA399A63D789 /* SMOrder.h */,
-				25C409800E8F88E8686A1A2172021E5A /* SMPortalBarButtonItem.h */,
-				E6E8E6FAA529A47206DA909BE806549B /* SMPortalButton.h */,
-				FB7C454A86B739DFE9B8158CAC2F581F /* SMReceipt.h */,
-				C400E47ADDFAF16BE0F29C37ECCD8EAC /* SMReceiptUploadViewController.h */,
-				1F5BF670D8527629F48F0B53971EA152 /* Frameworks */,
+				1F64F2624261D8DBFCF2AB15AFEAE9AF /* SessionM.h */,
+				B0A97D920A60D31FE4477641AC5C1C11 /* SMAchievementData.h */,
+				2C41FA20B0A6C3C78700A89BA2F33956 /* SMActivityFeedViewCell.h */,
+				52C80FE10C2DC5566123BDB7B3B85B98 /* SMActivityFeedViewController.h */,
+				49F06C84F754CDDB12B72E17E19671B7 /* SMActivityViewController.h */,
+				720BE655DBFF544758B514E607F7B216 /* SMDefaultMessageView.h */,
+				A3907E902F0E7E1F85D110EB819A585F /* SMFeedMessageData.h */,
+				0600773DC67000BA47CE217FEBE84932 /* SMLoaderController.h */,
+				49CF47311181E491F19B697573AE54D3 /* SMMessageData.h */,
+				57320ED53DA9A1882AC998CEE660DAB1 /* SMMessageView.h */,
+				8DEB1DB7443A17CFCC2FFEA3B93319D2 /* SMNotificationMessageData.h */,
+				8B5C90FB1FB128E02BEAB7DA77BAFA27 /* SMOrder.h */,
+				4D49A2532525C6D55DF6CE6D144B49A0 /* SMPortalBarButtonItem.h */,
+				F380FCC226E2B23E6BD29E639B69AEA4 /* SMPortalButton.h */,
+				AC1FBF0EA3E8C5651D3DCF5164ABB97A /* SMReceipt.h */,
+				0ACBD2441E864305DFBC389150704663 /* SMReceiptUploadViewController.h */,
+				4A532EE2D4FE6D6E593D38F68C8C707B /* Frameworks */,
 			);
 			path = SessionM;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -208,10 +208,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */ = {
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -291,10 +292,11 @@
 			};
 			name = Debug;
 		};
-		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -334,8 +336,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
-				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

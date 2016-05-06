@@ -1,12 +1,12 @@
 PODS:
-  - SessionM (1.15.5)
+  - SessionM (1.15.6)
 
 DEPENDENCIES:
   - SessionM (~> 1.15)
 
 SPEC CHECKSUMS:
-  SessionM: f038d92029bca1fa7407dc85b9a3da6f1713af09
+  SessionM: ea8bdfa2b62d68baa68f9653a7a91b9fb98075ed
 
 PODFILE CHECKSUM: 1f01abe5c1fad3f59fbb3c0dd9d5e065dddacf18
 
-COCOAPODS: 1.0.0.rc.1
+COCOAPODS: 1.0.0.rc.2
